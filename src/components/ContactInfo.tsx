@@ -18,12 +18,21 @@ export const ContactInfo = () => {
       </Box>
 
       <Stack spacing={"0"} mt={5} fontSize={"xl"}>
-        <Flex gap={2}>
-          <Text fontWeight={"bold"}>Telefon:</Text>
-          <Link href="tel:41677319">41677319</Link>
+        <Flex
+          direction={{ base: "column", md: "row" }}
+          gap={{ base: 0, md: 2 }}
+        >
+          <Text fontWeight={"bold"}>Telefon: </Text>
+          <Link fontWeight={"normal"} href="tel:41677319">
+            41677319
+          </Link>
         </Flex>
-        <Flex gap={2}>
-          <Text fontWeight={"bold"}> Epost:</Text>
+        <Flex
+          mt={1}
+          direction={{ base: "column", md: "row" }}
+          gap={{ base: 0, md: 2 }}
+        >
+          <Text fontWeight={"bold"}>Epost: </Text>
           <Link href="mailto:espen.eriksson@wang.no">
             espen.eriksson@wang.no
           </Link>

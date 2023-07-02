@@ -17,23 +17,23 @@ export const WangCard = () => {
         <Image
           src="/wang_logo.jpg"
           alt="WANG Toppidrett"
-          height={"100px"}
+          height={"80px"}
           w={"auto"}
         />
       </Box>
 
       <Box mt={5} fontSize={"xl"}>
-        <Text>Initiativ fra WANG Toppidrett Romerike innebandy</Text>
+        <Text>Initiativ fra WANG Toppidrett Romerike - Innebandy</Text>
 
         <Link
           mt={2}
           href="https://wang.no/toppidrett/romerike/innebandy"
           target="_blank"
-          color="blue"
+          color="darkblue"
           textDecoration={"underline"}
           fontWeight={"semibold"}
         >
-          Les mer om WANG Toppidrett Romerrike
+          Les mer her
         </Link>
       </Box>
     </CardLayout>
