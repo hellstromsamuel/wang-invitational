@@ -1,37 +1,34 @@
-import {
-  Box,
-  Divider,
-  Grid,
-  Heading,
-  Link,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, Link, Stack, Text } from "@chakra-ui/react";
+import { CardLayout } from "./CardLayout";
 
 export const ContactInfo = () => {
   return (
-    <Box>
+    <CardLayout>
       <Heading as="h2" size="lg">
-        Kontakt informasjon
+        Kontakt
       </Heading>
-      <Text fontWeight={"bold"} fontSize={"xl"} mt={2}>
-        Espen Eriksson
-      </Text>
-      <Text color={"gray"} lineHeight={"none"}>
-        Trener - WANG Romerrike innebandy
-      </Text>
-      <Divider my={2} />
-      <Stack spacing={"0"}>
-        <Text>
-          Telefon: <Link href="tel:41677319">41677319</Link>
+
+      <Box fontSize={"xl"}>
+        <Text fontWeight={"bold"} fontSize={"xl"} mt={2}>
+          Espen Eriksson
         </Text>
-        <Text>
-          Epost:{" "}
-          <Link href="mailto:Espen.eriksson@wang.no">
-            Espen.eriksson@wang.no
+        <Text color={"gray"} lineHeight={"none"}>
+          SPORTSJEF INNEBANDY
+        </Text>
+      </Box>
+
+      <Stack spacing={"0"} mt={5} fontSize={"xl"}>
+        <Flex gap={2}>
+          <Text fontWeight={"bold"}>Telefon:</Text>
+          <Link href="tel:41677319">41677319</Link>
+        </Flex>
+        <Flex gap={2}>
+          <Text fontWeight={"bold"}> Epost:</Text>
+          <Link href="mailto:espen.eriksson@wang.no">
+            espen.eriksson@wang.no
           </Link>
-        </Text>
+        </Flex>
       </Stack>
-    </Box>
+    </CardLayout>
   );
 };

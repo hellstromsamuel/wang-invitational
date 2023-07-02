@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 interface Props {
@@ -14,11 +13,7 @@ export const SectionLayout = (props: Props) => {
       whileInView={{ translateY: "0px", opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
-      <section>
-        <Box p={2} my={5}>
-          {children}
-        </Box>
-      </section>
+      {children}
     </motion.div>
   );
 };

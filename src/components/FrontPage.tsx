@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { SectionLayout } from "./SectionLayout";
 
 export const FrontPage = () => {
@@ -25,14 +25,19 @@ export const FrontPage = () => {
         position={"absolute"}
       />
 
-      <Heading
-        as="h1"
-        size={{ base: "2xl", md: "4xl" }}
-        position={"absolute"}
-        color="white"
-      >
-        <SectionLayout>WANG Invitational</SectionLayout>
-      </Heading>
+      <Box position={"absolute"} color={"white"} p={2}>
+        <SectionLayout>
+          <Heading as="h1" size={{ base: "2xl", md: "4xl" }}>
+            WANG Invitational
+          </Heading>
+          <Text fontSize={{ base: "xl", md: "3xl" }} mt={5}>
+            Samling på vegne av WANG Innebandy
+          </Text>
+          <Text fontSize={{ base: "xl", md: "3xl" }}>
+            September 2023 (tid og sted kommer)
+          </Text>
+        </SectionLayout>
+      </Box>
     </Flex>
   );
 };
