@@ -22,10 +22,8 @@ export const WangCard = () => {
         />
       </Box>
 
-      <Box mt={5}>
-        <Text fontSize={"xl"}>
-          Initiativ fra WANG Toppidrett Romerike innebandy
-        </Text>
+      <Box mt={5} fontSize={"xl"}>
+        <Text>Initiativ fra WANG Toppidrett Romerike innebandy</Text>
 
         <Link
           mt={2}
