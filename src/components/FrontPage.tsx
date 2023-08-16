@@ -34,7 +34,7 @@ export const FrontPage = () => {
             Samling på vegne av WANG Innebandy
           </Text>
           <Text fontSize={{ base: "xl", md: "3xl" }}>
-            September 2023 (tid og sted kommer)
+            Første samling 17. september 2023
           </Text>
         </SectionLayout>
       </Box>

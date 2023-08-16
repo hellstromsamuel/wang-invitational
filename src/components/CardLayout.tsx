@@ -11,8 +11,9 @@ export const CardLayout = (props: Props) => {
     <Flex
       direction={"column"}
       rounded={20}
-      p={10}
-      boxShadow={"lg"}
+      py={5}
+      px={2}
+      // boxShadow={"lg"}
       height={"100%"}
       justify="center"
     >

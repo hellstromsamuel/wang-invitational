@@ -9,9 +9,9 @@ export const SectionLayout = (props: Props) => {
 
   return (
     <motion.div
-      initial={{ translateY: "-10px", opacity: 0 }}
+      initial={{ translateY: "10px", opacity: 0 }}
       whileInView={{ translateY: "0px", opacity: 1 }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.5 }}
     >
       {children}
     </motion.div>
