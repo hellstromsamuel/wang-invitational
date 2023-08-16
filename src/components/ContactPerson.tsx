@@ -1,5 +1,6 @@
-import { Box, Flex, Stack, Text, Link, Image } from "@chakra-ui/react";
+import { Box, Flex, Stack, Text, Link } from "@chakra-ui/react";
 import { Person } from "./ContactInfo";
+import Image from "next/image";
 
 interface Props {
   person: Person;
@@ -12,14 +13,17 @@ export const ContactPerson = (props: Props) => {
     <Box>
       <Box fontSize={"xl"}>
         <Image
+          style={{
+            marginTop: 20,
+            marginBottom: 20,
+            borderRadius: "50%",
+          }}
           src={"/persons/" + person.imgUrl}
           alt={person.name}
-          height={"150px"}
-          w={"auto"}
-          rounded={"full"}
-          my={5}
+          width={150}
+          height={150}
         />
-        <Text fontWeight={"bold"} fontSize={"xl"} mt={2}>
+        <Text fontWeight={"bold"} fontSize={"xl"}>
           {person.name}
         </Text>
         <Text color={"gray"} lineHeight={"none"}>
