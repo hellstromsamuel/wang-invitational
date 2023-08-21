@@ -40,15 +40,15 @@ export const WangCard = () => {
           my={5}
         >
           <Text>
-            Wang Innebandy ønsker at lage en arena i Oslo og Romerike der de
+            Wang Innebandy ønsker å lage en arena i Oslo og Romerike der de
             beste i sitt årskull møtes. Denne sesongen vil vi starte opp med
-            kullene 2007 og 2008. Der kan vi gi deg en mulighet at trene med
-            likesinnede samt de med samme ambisjoner. Du trenger ikke at gå på
+            kullene 2007 og 2008. Der kan vi gi deg en mulighet å trene med
+            likesinnede samt de med samme ambisjoner. Du trenger ikke å gå på
             Wang Toppidrett eller Wang Ung.
           </Text>
           <Text>
             Målet er å ha 3 samlinger i løpet av året der Wang inviterer
-            spillene. Den første samlingen vil finne sted i Eika arena den
+            spillere. Den første samlingen vil finne sted i Eika arena den
             17.september. Om dette kan være noe for deg, hold av datoen.
             Invitasjonene fra Wang kommer i løpet av andre del av august.
           </Text>
